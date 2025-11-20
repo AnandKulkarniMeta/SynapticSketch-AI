@@ -1,0 +1,8 @@
+flask
+flask-cors
+torch
+torchvision
+diffusers
+transformers
+Pillow
+safetensors

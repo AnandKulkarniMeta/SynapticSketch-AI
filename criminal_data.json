@@ -1,0 +1,425 @@
+[
+  {
+    "id": "C001",
+    "personal_details": {
+      "name": "Arjun Raj Kapoor",
+      "aliases": ["A. Kapoor"],
+      "gender": "Male",
+      "age": 28,
+      "date_of_birth": "1997-03-05",
+      "nationality": "Indian",
+      "state_of_residence": "Maharashtra"
+    },
+    "booking_information": {
+      "arrest_id": "MH-PN-2025-1001",
+      "booking_date_time": "2025-02-11T18:22:00",
+      "arrest_location": "FC Road, Pune",
+      "arresting_agency": "Pune City Police (Unit 2)"
+    },
+    "charges": [
+      {
+        "charge_code": "IPC 379",
+        "description": "Theft",
+        "severity": "Misdemeanor",
+        "status": "Pending"
+      }
+    ],
+    "court_case_information": {
+      "case_number": "C/PN/2025/9001",
+      "court": "Pune District & Sessions Court",
+      "next_hearing_date": "2025-02-28",
+      "bail_amount": "₹20,000 (Cash Bond)",
+      "bail_status": "Granted"
+    },
+    "custody_information": {
+      "facility": "Yerawada Central Jail",
+      "inmate_id": "YRJ-2025-3001",
+      "custody_status": "Released on Bail",
+      "release_date": "2025-02-12"
+    },
+    "administrative_notes": {
+      "risk_assessment": "Low",
+      "behavior_at_booking": "Calm",
+      "officer_notes": "Cooperative during questioning."
+    },
+    "profile_image": "http://localhost:5000/static/images/pic1.jpg"
+  },
+  {
+    "id": "C002",
+    "personal_details": {
+      "name": "Nehal Vinod Patil",
+      "aliases": ["Neha P."],
+      "gender": "Male",
+      "age": 26,
+      "date_of_birth": "1998-08-19",
+      "nationality": "Indian",
+      "state_of_residence": "Maharashtra"
+    },
+    "booking_information": {
+      "arrest_id": "MH-PN-2025-1002",
+      "booking_date_time": "2025-01-04T15:40:00",
+      "arrest_location": "Kothrud, Pune",
+      "arresting_agency": "Pune Crime Branch (Economic Offences Wing)"
+    },
+    "charges": [
+      {
+        "charge_code": "IPC 420",
+        "description": "Cheating & Fraud",
+        "severity": "Felony",
+        "status": "Under Investigation"
+      }
+    ],
+    "court_case_information": {
+      "case_number": "C/PN/2025/9002",
+      "court": "Pune District Court",
+      "next_hearing_date": "2025-03-12",
+      "bail_amount": "₹30,000 (Surety Bond)",
+      "bail_status": "Bail Application Pending"
+    },
+    "custody_information": {
+      "facility": "Yerawada Women’s Cell",
+      "inmate_id": "YWC-2025-1122",
+      "custody_status": "In Custody",
+      "release_date": null
+    },
+    "administrative_notes": {
+      "risk_assessment": "Medium",
+      "behavior_at_booking": "Nervous",
+      "officer_notes": "Requested legal counsel immediately."
+    },
+    "profile_image": "http://localhost:5000/static/images/pic2.jpg"
+  },
+  {
+    "id": "C003",
+    "personal_details": {
+      "name": "Vikram Suresh Nair",
+      "aliases": ["Vik Nair"],
+      "gender": "Male",
+      "age": 32,
+      "date_of_birth": "1992-06-22",
+      "nationality": "Indian",
+      "state_of_residence": "Kerala"
+    },
+    "booking_information": {
+      "arrest_id": "MH-PN-2025-1003",
+      "booking_date_time": "2025-02-09T21:10:00",
+      "arrest_location": "Wakad Bridge, Pune",
+      "arresting_agency": "Hinjewadi Police (Cyber Cell Support)"
+    },
+    "charges": [
+      {
+        "charge_code": "IPC 392",
+        "description": "Robbery",
+        "severity": "Felony",
+        "status": "Charge Filed"
+      }
+    ],
+    "court_case_information": {
+      "case_number": "C/PN/2025/9003",
+      "court": "Pune Sessions Court",
+      "next_hearing_date": "2025-03-20",
+      "bail_amount": "₹45,000 (Surety Bond)",
+      "bail_status": "Granted"
+    },
+    "custody_information": {
+      "facility": "Yerawada Central Jail",
+      "inmate_id": "YRJ-2025-3012",
+      "custody_status": "Released on Bail",
+      "release_date": "2025-02-10"
+    },
+    "administrative_notes": {
+      "risk_assessment": "Medium",
+      "behavior_at_booking": "Aggressive at first",
+      "officer_notes": "Needed to be calmed down by senior officer."
+    },
+    "profile_image": "http://localhost:5000/static/images/pic3.jpg"
+  },
+  {
+    "id": "C004",
+    "personal_details": {
+      "name": "Priyansh Mohan Singh",
+      "aliases": ["P. Singh"],
+      "gender": "Male",
+      "age": 20,
+      "date_of_birth": "1994-12-13",
+      "nationality": "Indian",
+      "state_of_residence": "Uttar Pradesh"
+    },
+    "booking_information": {
+      "arrest_id": "MH-PN-2025-1004",
+      "booking_date_time": "2025-03-16T14:55:00",
+      "arrest_location": "Camp Area, Pune",
+      "arresting_agency": "Pune Police (Unit 5)"
+    },
+    "charges": [
+      {
+        "charge_code": "IPC 307",
+        "description": "Attempt to Murder",
+        "severity": "Felony",
+        "status": "Investigation Ongoing"
+      }
+    ],
+    "court_case_information": {
+      "case_number": "C/PN/2025/9004",
+      "court": "Pune Sessions Court",
+      "next_hearing_date": "2025-04-02",
+      "bail_amount": "₹50,000 (Surety Bond)",
+      "bail_status": "Bail Denied"
+    },
+    "custody_information": {
+      "facility": "Yerawada Women’s Cell",
+      "inmate_id": "YWC-2025-1550",
+      "custody_status": "In Custody",
+      "release_date": null
+    },
+    "administrative_notes": {
+      "risk_assessment": "High",
+      "behavior_at_booking": "Silent, non-cooperative",
+      "officer_notes": "Avoided answering most questions."
+    },
+    "profile_image": "http://localhost:5000/static/images/pic4.jpg"
+  },
+  {
+    "id": "C005",
+    "personal_details": {
+      "name": "Sahil Kumar Jain",
+      "aliases": ["Sahil J."],
+      "gender": "Male",
+      "age": 27,
+      "date_of_birth": "1997-04-30",
+      "nationality": "Indian",
+      "state_of_residence": "Rajasthan"
+    },
+    "booking_information": {
+      "arrest_id": "MH-PN-2025-1005",
+      "booking_date_time": "2025-02-07T11:33:00",
+      "arrest_location": "Swargate, Pune",
+      "arresting_agency": "Pune Police (Unit 4)"
+    },
+    "charges": [
+      {
+        "charge_code": "IPC 34",
+        "description": "Common Intention",
+        "severity": "Additional",
+        "status": "Pending"
+      },
+      {
+        "charge_code": "IPC 379",
+        "description": "Theft",
+        "severity": "Misdemeanor",
+        "status": "Pending"
+      }
+    ],
+    "court_case_information": {
+      "case_number": "C/PN/2025/9005",
+      "court": "Pune District Court",
+      "next_hearing_date": "2025-03-03",
+      "bail_amount": "₹25,000 (Surety Bond)",
+      "bail_status": "Granted"
+    },
+    "custody_information": {
+      "facility": "Yerawada Central Jail",
+      "inmate_id": "YRJ-2025-3221",
+      "custody_status": "Released on Bail",
+      "release_date": "2025-02-08"
+    },
+    "administrative_notes": {
+      "risk_assessment": "Low",
+      "behavior_at_booking": "Cooperative",
+      "officer_notes": "Provided accurate timeline of events."
+    },
+    "profile_image": "http://localhost:5000/static/images/pic5.jpg"
+  },
+  {
+    "id": "C006",
+    "personal_details": {
+      "name": "Meet Ramesh Kulkarni",
+      "aliases": ["Meera K."],
+      "gender": "Male",
+      "age": 21,
+      "date_of_birth": "1993-09-21",
+      "nationality": "Indian",
+      "state_of_residence": "Maharashtra"
+    },
+    "booking_information": {
+      "arrest_id": "MH-PN-2025-1006",
+      "booking_date_time": "2025-02-23T20:18:00",
+      "arrest_location": "Viman Nagar, Pune",
+      "arresting_agency": "Pune EOW"
+    },
+    "charges": [
+      {
+        "charge_code": "IPC 406",
+        "description": "Criminal Breach of Trust",
+        "severity": "Misdemeanor",
+        "status": "Under Review"
+      }
+    ],
+    "court_case_information": {
+      "case_number": "C/PN/2025/9006",
+      "court": "Pune District Court",
+      "next_hearing_date": "2025-03-19",
+      "bail_amount": "₹10,000 (Cash Bond)",
+      "bail_status": "Granted"
+    },
+    "custody_information": {
+      "facility": "Yerawada Women’s Cell",
+      "inmate_id": "YWC-2025-1006",
+      "custody_status": "Released on Bail",
+      "release_date": "2025-02-24"
+    },
+    "administrative_notes": {
+      "risk_assessment": "Low",
+      "behavior_at_booking": "Cooperative",
+      "officer_notes": "No issues encountered."
+    },
+    "profile_image": "http://localhost:5000/static/images/pic6.jpg"
+  },
+  {
+    "id": "C007",
+    "personal_details": {
+      "name": "Ravi Anil Deshmukh",
+      "aliases": ["R. Deshmukh"],
+      "gender": "Male",
+      "age": 34,
+      "date_of_birth": "1991-01-17",
+      "nationality": "Indian",
+      "state_of_residence": "Maharashtra"
+    },
+    "booking_information": {
+      "arrest_id": "MH-PN-2025-1007",
+      "booking_date_time": "2025-03-02T16:10:00",
+      "arrest_location": "Pimpri, Pune",
+      "arresting_agency": "Pimpri-Chinchwad Police"
+    },
+    "charges": [
+      {
+        "charge_code": "IPC 420",
+        "description": "Cheating",
+        "severity": "Felony",
+        "status": "Charge Filed"
+      },
+      {
+        "charge_code": "IPC 467",
+        "description": "Forgery of Documents",
+        "severity": "Felony",
+        "status": "Under Investigation"
+      }
+    ],
+    "court_case_information": {
+      "case_number": "PC/PN/2025/7701",
+      "court": "PCMC Court",
+      "next_hearing_date": "2025-03-27",
+      "bail_amount": "₹40,000 (Surety Bond)",
+      "bail_status": "Pending"
+    },
+    "custody_information": {
+      "facility": "Yerawada Central Jail",
+      "inmate_id": "PCJ-2025-7771",
+      "custody_status": "In Custody",
+      "release_date": null
+    },
+    "administrative_notes": {
+      "risk_assessment": "Medium",
+      "behavior_at_booking": "Defensive",
+      "officer_notes": "Denied all charges repeatedly."
+    },
+    "profile_image": "http://localhost:5000/static/images/pic7.jpg"
+  },
+  {
+    "id": "C008",
+    "personal_details": {
+      "name": "Anuj Prakash Rao",
+      "aliases": ["Anjali R."],
+      "gender": "Male",
+      "age": 24,
+      "date_of_birth": "2000-11-08",
+      "nationality": "Indian",
+      "state_of_residence": "Karnataka"
+    },
+    "booking_information": {
+      "arrest_id": "MH-PN-2025-1008",
+      "booking_date_time": "2025-02-10T10:55:00",
+      "arrest_location": "Hadapsar, Pune",
+      "arresting_agency": "Pune Police (Unit 1)"
+    },
+    "charges": [
+      {
+        "charge_code": "IPC 323",
+        "description": "Causing Hurt",
+        "severity": "Misdemeanor",
+        "status": "Pending"
+      }
+    ],
+    "court_case_information": {
+      "case_number": "C/PN/2025/9008",
+      "court": "Pune District Court",
+      "next_hearing_date": "2025-03-05",
+      "bail_amount": "₹8,000 (Cash Bond)",
+      "bail_status": "Granted"
+    },
+    "custody_information": {
+      "facility": "Yerawada Women’s Cell",
+      "inmate_id": "YWC-2025-1118",
+      "custody_status": "Released on Bail",
+      "release_date": "2025-02-10"
+    },
+    "administrative_notes": {
+      "risk_assessment": "Low",
+      "behavior_at_booking": "Cooperative",
+      "officer_notes": "Apologized during interrogation."
+    },
+    "profile_image": "http://localhost:5000/static/images/pic8.jpg"
+  },
+  {
+    "id": "C009",
+    "personal_details": {
+      "name": "Mohit Deepak Sharma",
+      "aliases": ["M. Sharma"],
+      "gender": "Male",
+      "age": 30,
+      "date_of_birth": "1994-05-02",
+      "nationality": "Indian",
+      "state_of_residence": "Delhi"
+    },
+    "booking_information": {
+      "arrest_id": "MH-PN-2025-1009",
+      "booking_date_time": "2025-02-18T09:45:00",
+      "arrest_location": "Chakan Industrial Area",
+      "arresting_agency": "Chakan Police"
+    },
+    "charges": [
+      {
+        "charge_code": "IPC 379",
+        "description": "Theft",
+        "severity": "Misdemeanor",
+        "status": "Pending"
+      },
+      {
+        "charge_code": "IPC 34",
+        "description": "Common Intention",
+        "severity": "Additional",
+        "status": "Pending"
+      }
+    ],
+    "court_case_information": {
+      "case_number": "C/PN/2025/9009",
+      "court": "Pune District Court",
+      "next_hearing_date": "2025-03-22",
+      "bail_amount": "₹22,000 (Cash Bond)",
+      "bail_status": "Pending"
+    },
+    "custody_information": {
+      "facility": "Yerawada Central Jail",
+      "inmate_id": "YRJ-2025-3512",
+      "custody_status": "Pending Bail Hearing",
+      "release_date": null
+    },
+    "administrative_notes": {
+      "risk_assessment": "Low",
+      "behavior_at_booking": "Confused",
+      "officer_notes": "Claimed mistaken identity."
+    },
+    "profile_image": "http://localhost:5000/static/images/pic9.jpg"
+  }
+]

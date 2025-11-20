@@ -1,0 +1,129 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    /* Forensic Dark Theme */
+    --background: 220 30% 8%;
+    --foreground: 195 100% 95%;
+
+    --card: 220 28% 12%;
+    --card-foreground: 195 100% 95%;
+
+    --popover: 220 30% 10%;
+    --popover-foreground: 195 100% 95%;
+
+    /* Neon Blue Primary */
+    --primary: 190 100% 50%;
+    --primary-foreground: 220 30% 8%;
+
+    --secondary: 220 25% 18%;
+    --secondary-foreground: 195 100% 95%;
+
+    --muted: 220 25% 15%;
+    --muted-foreground: 195 20% 65%;
+
+    --accent: 190 100% 50%;
+    --accent-foreground: 220 30% 8%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 220 25% 20%;
+    --input: 220 25% 18%;
+    --ring: 190 100% 50%;
+
+    --radius: 0.75rem;
+
+    /* Glassmorphism */
+    --glass-bg: 220 28% 12% / 0.6;
+    --glass-border: 190 100% 50% / 0.2;
+    
+    /* Glow effects */
+    --glow-primary: 190 100% 50%;
+    --glow-secondary: 200 100% 60%;
+
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(190 100% 50%) 0%, hsl(200 100% 40%) 100%);
+    --gradient-dark: linear-gradient(180deg, hsl(220 30% 8%) 0%, hsl(220 30% 4%) 100%);
+    
+    /* Animations */
+    --transition-smooth: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-spring: all 0.6s cubic-bezier(0.34, 1.56, 0.64, 1);
+  }
+}
+
+@layer utilities {
+  .glass-card {
+    background: hsl(var(--glass-bg));
+    backdrop-filter: blur(12px);
+    border: 1px solid hsl(var(--glass-border));
+    box-shadow: 0 8px 32px 0 rgba(0, 212, 255, 0.1);
+  }
+
+  .glow-effect {
+    box-shadow: 0 0 20px hsl(var(--glow-primary) / 0.3),
+                0 0 40px hsl(var(--glow-primary) / 0.2);
+  }
+
+  .glow-text {
+    text-shadow: 0 0 10px hsl(var(--glow-primary) / 0.5),
+                 0 0 20px hsl(var(--glow-primary) / 0.3);
+  }
+
+  .text-gradient {
+    background: var(--gradient-primary);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .animate-fade-in-up {
+    animation: fadeInUp 0.6s ease-out forwards;
+  }
+
+  .animate-glow-pulse {
+    animation: glowPulse 2s ease-in-out infinite;
+  }
+
+  .smooth-scroll {
+    scroll-behavior: smooth;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes glowPulse {
+  0%, 100% {
+    box-shadow: 0 0 20px hsl(var(--glow-primary) / 0.3),
+                0 0 40px hsl(var(--glow-primary) / 0.2);
+  }
+  50% {
+    box-shadow: 0 0 30px hsl(var(--glow-primary) / 0.5),
+                0 0 60px hsl(var(--glow-primary) / 0.3);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
